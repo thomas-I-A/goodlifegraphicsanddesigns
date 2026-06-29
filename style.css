@@ -2,7 +2,7 @@
   position:absolute;
   width: 37px;
   margin-left: 15px;
-  margin-top: -15px;
+  margin-top: -20px;
   z-index: 1;
 }
 
@@ -13,19 +13,89 @@ h1{
   font-weight: bold;
   color:brown;
   margin-left:71px;
-  margin-top: 20px;
+  margin-top: 25px;
   z-index: 1;
 }
+
+
 
 
 h2{
   margin-left: 222px;
   margin-top: 20px;
   font-size: 26px;
+  font-weight: 100;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.contact{
+  display:flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 50px;
+  list-style:none;
+}
 
+.us{
+   list-style:none;
+}
+
+
+.email{ 
+  text-decoration: none;
+}
+
+.e-mail{
+  width: 20px;
+  margin-left: 4px;
+}
+
+.locator{
+  width: 20px;
+  margin-top: -9px;
+}
+
+.instagram{
+  width: 30px;
+  margin-top: 11px;
+}
+
+.facebook{
+  width: 47px;
+  margin-left: -10px;
+  margin-top: 11px;
+}
+
+.youtube{
+  width: 56px;
+  margin-top: 11px;
+  margin-left: -5px;
+}
+
+.phone{
+  text-decoration: none;
+}
+
+.p-hone{
+  width: 20px;
+  margin-top: -4px;
+}
+
+.whatsapp{
+  width: 30px;
+  margin-top: 11px;
+}
+
+.tiktok{
+width: 56px;
+margin-left: -15px;
+margin-top: 11px;
+}
+
+.linkedin{
+  width: 40px;
+  margin-top: 11px;
+}
 
 .kkk{
   margin-left: 800px;
@@ -68,7 +138,7 @@ h2{
     --bs-dropdown-link-hover-color: brown;
     --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
     --bs-dropdown-link-active-color: #fff;
-    --bs-dropdown-link-active-bg: #0d6efd;
+    --bs-dropdown-link-active-bg: #5191f2;
     --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
     --bs-dropdown-item-padding-x: 1rem;
     --bs-dropdown-item-padding-y: 0.25rem;
@@ -85,7 +155,7 @@ h2{
     color: var(--bs-dropdown-color);
     text-align: left;
     list-style: none;
-    background-color: var(--bs-dropdown-bg);
+    background-color: transparent;
     background-clip: padding-box;
     border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
     border-radius: var(--bs-dropdown-border-radius);
@@ -95,14 +165,20 @@ h2{
 
 .ul{gap: 33px;}
 
+
+.nav-form{
+  margin-top: 12px;
+}
+
 .giving{
   position: absolute;
   color: beige;
   margin-left: 355px;
-  margin-top: 259px;
-  font-size: 45px;
+  margin-top: 280px;
+  font-size: 35px;
   font-weight: bold;
   text-align: left;
+  text-wrap: wrap;
 }
 
 span{
@@ -130,13 +206,14 @@ span{
   margin-top: 694px;
   font-size: 1rem;
   width: 80%;
+ /* gap: 20px; */
 }
 
 .pl{
-  color: rgb(62, 62, 60);
+  color: rgb(105, 105, 104);
   margin-left: 33px;
   margin-top: 164px;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 
@@ -146,7 +223,7 @@ span{
   width: 100%;
 }
 
-form.example input[type=text] {
+form.body-form input[type=text] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -156,7 +233,7 @@ form.example input[type=text] {
 }
 
 
-form.example button {
+form.body-form button {
     float: left;
     width: 20%;
     padding: 10px;
@@ -169,17 +246,17 @@ form.example button {
 }
 
 
-form.example button:hover {
+form.body-form button:hover {
   background: #0b7dda;
 }
 
-form.example::after {
+form.body-form::after {
   content: "";
   clear: both;
   display: table;
 }
 
-form.example{
+form.body-form{
  position: absolute;
  margin-left: 357px;
  margin-top: 459px;
@@ -189,4 +266,99 @@ form.example{
 
 
 
-@media(max-width:600px){}
+@media(max-width:600px){
+ h1{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 69px;
+ }
+
+
+ h2{
+  font-size: 1rem;
+ }
+
+ .ul{
+  margin-left: -350px;
+  position: absolute;
+  z-index: 1;
+  gap: 18px;
+  width: 10px;
+ }
+
+ .nav-link{
+  color: rgb(93, 93, 235);
+ }
+
+ .top{
+   font-size: 18px;
+   margin-top: -12px;
+   margin-left: -35px;
+ }
+
+ .dropdown-menu{
+  background-color: transparent;
+  width: 1px;
+  margin-left: -105px;
+  position: absolute;
+ }
+
+ .dropdown-item{
+  color: rgb(239, 183, 108);
+  margin-left: 8px;
+  font-size: 15px;
+  position: relative;
+ }
+
+ .nav-form{
+  margin-left: -130px;
+  margin-top: 8px;
+ }
+
+
+ .contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  width: 332px;
+ }
+
+ 
+
+ .giving{
+  font-size: 20px;
+  margin-left: 182px;
+  margin-top: 388px;
+ }
+
+ form.body-form{
+  width: 40%;
+  margin-left: 180px;
+  margin-top: 498px;
+  position: absolute;
+ }
+
+
+ h5{
+  font-size: 16px;
+  margin-left: 92px;
+ }
+
+ 
+ 
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.bottom{
+  font-size: 10px;
+  margin-left: 122px;
+  gap: 6px;
+}
+  
+}
