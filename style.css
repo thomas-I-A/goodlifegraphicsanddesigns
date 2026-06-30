@@ -296,7 +296,7 @@ form.body-form{
  .top{
    font-size: 18px;
    margin-top: -12px;
-   margin-left: -75px;
+   margin-left: -100px;
  }
 
 
@@ -315,7 +315,7 @@ form.body-form{
  }
 
  .nav-form{
-  margin-left: -184px;
+  margin-left: -200px;
   margin-top: 8px;
  }
 
@@ -332,13 +332,13 @@ form.body-form{
  .giving{
   font-size: 20px;
   margin-left: 102px;
-  margin-top: 288px;
+  margin-top: 388px;
  }
 
  form.body-form{
   width: 40%;
   margin-left: 100px;
-  margin-top: 398px;
+  margin-top: 498px;
   position: absolute;
  }
 
@@ -356,6 +356,7 @@ form.body-form{
   grid-template-rows: 1fr 1fr;
   /* position: absolute; */
   gap: 3px;
+  margin-top: 801px;
 }
 
 
