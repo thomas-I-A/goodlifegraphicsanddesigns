@@ -315,7 +315,7 @@ form.body-form{
  }
 
  .nav-form{
-  margin-left: -200px;
+  margin-left: -270px;
   margin-top: 8px;
  }
 
@@ -356,14 +356,23 @@ form.body-form{
   grid-template-rows: 1fr 1fr;
   /* position: absolute; */
   gap: 3px;
-  margin-top: 801px;
+  margin-top: 1001px;
 }
 
 
 .bottom{
   font-size: 10px;
-  margin-left: 122px;
+  margin-left: 100px;
   gap: 6px;
 }
+
+
+.bgimg{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+
   
 }
