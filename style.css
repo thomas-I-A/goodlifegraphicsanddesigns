@@ -267,6 +267,7 @@ form.body-form{
 
 
 @media(max-width:600px){
+
  h1{
   font-size: 15px;
   margin-top: 20px;
@@ -276,45 +277,47 @@ form.body-form{
 
  h2{
   font-size: 1rem;
+  margin-left: 141px;
  }
 
  .ul{
-  margin-left: -350px;
+  margin-left: -400px;
   position: absolute;
   z-index: 1;
-  gap: 18px;
-  width: 10px;
+  gap: 8px;
+  width: 5px;
  }
 
- .nav-link{
+ .hopper{
   color: rgb(93, 93, 235);
+  /* margin-top: -22px; */
  }
 
  .top{
    font-size: 18px;
    margin-top: -12px;
-   margin-left: -35px;
+   margin-left: -75px;
  }
+
 
  .dropdown-menu{
   background-color: transparent;
   width: 1px;
-  margin-left: -105px;
+  margin-left: -80px;
   position: absolute;
  }
 
  .dropdown-item{
   color: rgb(239, 183, 108);
-  margin-left: 8px;
+  /* margin-left: 8px; */
   font-size: 15px;
   position: relative;
  }
 
  .nav-form{
-  margin-left: -130px;
+  margin-left: -184px;
   margin-top: 8px;
  }
-
 
  .contact{
   display: grid;
@@ -324,18 +327,18 @@ form.body-form{
   width: 332px;
  }
 
- 
+
 
  .giving{
   font-size: 20px;
-  margin-left: 182px;
-  margin-top: 388px;
+  margin-left: 102px;
+  margin-top: 288px;
  }
 
  form.body-form{
   width: 40%;
-  margin-left: 180px;
-  margin-top: 498px;
+  margin-left: 100px;
+  margin-top: 398px;
   position: absolute;
  }
 
@@ -346,12 +349,13 @@ form.body-form{
  }
 
  
- 
 
 .footer{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  /* position: absolute; */
+  gap: 3px;
 }
 
 
