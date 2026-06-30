@@ -281,7 +281,7 @@ form.body-form{
  }
 
  .ul{
-  margin-left: -400px;
+  margin-left: -420px;
   position: absolute;
   z-index: 1;
   gap: 8px;
@@ -290,7 +290,6 @@ form.body-form{
 
  .hopper{
   color: rgb(93, 93, 235);
-  /* margin-top: -22px; */
  }
 
  .top{
@@ -309,7 +308,6 @@ form.body-form{
 
  .dropdown-item{
   color: rgb(239, 183, 108);
-  /* margin-left: 8px; */
   font-size: 15px;
   position: relative;
  }
@@ -356,7 +354,7 @@ form.body-form{
   grid-template-rows: 1fr 1fr;
   /* position: absolute; */
   gap: 3px;
-  margin-top: 1001px;
+  margin-top: 901px;
 }
 
 
